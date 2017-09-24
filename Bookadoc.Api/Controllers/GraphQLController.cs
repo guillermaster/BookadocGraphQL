@@ -1,13 +1,15 @@
-﻿using System;
+﻿using GraphQL;
 using System.Collections.Generic;
-using System.Linq;
+using GraphQL.Types;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Bookadoc.Api.Models;
+using Bookadoc.Data.InMemory;
 
 namespace Bookadoc.Api.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class GraphQLController : Controller
     {
         // GET api/values
         [HttpGet]
@@ -25,8 +27,22 @@ namespace Bookadoc.Api.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public async Task<IActionResult> Post([FromBody]GraphQLQuery query)
         {
+            var schema = new Schema { Query = new UserQuery(new UserRepository()) };
+
+            var result = await new DocumentExecuter().ExecuteAsync(_ =>
+            {
+                _.Schema = schema;
+                _.Query = query.Query;
+            }).ConfigureAwait(false);
+
+            if(result.Errors?.Count > 0)
+            {
+                return BadRequest();
+            }
+
+            return Ok(result);
         }
 
         // PUT api/values/5

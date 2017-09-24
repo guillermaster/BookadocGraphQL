@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookadoc.Api", "Bookadoc.Api\Bookadoc.Api.csproj", "{727A1F45-277A-421E-B128-D33B1E277603}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookadoc.Core", "Bookadoc.Core\Bookadoc.Core.csproj", "{70896BF8-7C0F-42C5-ADAC-DD7FD83B09B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookadoc.Data", "Bookadoc.Data\Bookadoc.Data.csproj", "{1A7BBEE9-DBE0-473F-A61F-A986E3ED69A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{727A1F45-277A-421E-B128-D33B1E277603}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{727A1F45-277A-421E-B128-D33B1E277603}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{727A1F45-277A-421E-B128-D33B1E277603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70896BF8-7C0F-42C5-ADAC-DD7FD83B09B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70896BF8-7C0F-42C5-ADAC-DD7FD83B09B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70896BF8-7C0F-42C5-ADAC-DD7FD83B09B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70896BF8-7C0F-42C5-ADAC-DD7FD83B09B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A7BBEE9-DBE0-473F-A61F-A986E3ED69A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A7BBEE9-DBE0-473F-A61F-A986E3ED69A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A7BBEE9-DBE0-473F-A61F-A986E3ED69A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A7BBEE9-DBE0-473F-A61F-A986E3ED69A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
