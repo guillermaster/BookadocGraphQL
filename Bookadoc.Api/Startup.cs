@@ -11,6 +11,8 @@ using Microsoft.Extensions.Options;
 using Bookadoc.Api.Models;
 using Bookadoc.Data.InMemory;
 using Bookadoc.Core.Data;
+using Bookadoc.Data.EntityFramework;
+using Microsoft.EntityFrameworkCore;
 
 namespace Bookadoc.Api
 {
@@ -30,6 +32,9 @@ namespace Bookadoc.Api
 
             services.AddTransient<UserQuery>();
             services.AddTransient<IUserRepository, UserRepository>();
+            services.AddDbContext<BookadocContext>(options =>
+                options.UseSqlServer(Configuration["ConnectionStrings:BookadocDatabaseConnection"])
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
