@@ -11,6 +11,13 @@ namespace Bookadoc.Api.Controllers
     [Route("api/[controller]")]
     public class GraphQLController : Controller
     {
+        private UserQuery _userQuery { get; set; }
+
+        public GraphQLController(UserQuery userQuery)
+        {
+            _userQuery = userQuery;
+        }
+
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
@@ -29,7 +36,7 @@ namespace Bookadoc.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]GraphQLQuery query)
         {
-            var schema = new Schema { Query = new UserQuery(new UserRepository()) };
+            var schema = new Schema { Query = _userQuery };
 
             var result = await new DocumentExecuter().ExecuteAsync(_ =>
             {
