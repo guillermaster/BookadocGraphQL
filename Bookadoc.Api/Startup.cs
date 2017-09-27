@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Bookadoc.Api.Models;
-using Bookadoc.Data.InMemory;
 using Bookadoc.Core.Data;
 using Bookadoc.Data.EntityFramework;
 using Microsoft.EntityFrameworkCore;
+using Bookadoc.Data.EntityFramework.Repositories;
+using Microsoft.Extensions.Logging;
 
 namespace Bookadoc.Api
 {
@@ -33,16 +28,19 @@ namespace Bookadoc.Api
             services.AddTransient<UserQuery>();
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddDbContext<BookadocContext>(options =>
-                options.UseSqlServer(Configuration["ConnectionStrings:BookadocDatabaseConnection"])
+                options.UseSqlServer(Configuration.GetConnectionString("BookadocDatabaseConnection"))
             );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env,
+            ILoggerFactory loggerFactory, BookadocContext db)
         {
+            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                db.EnsureSeedData();
             }
 
             app.UseMvc();
