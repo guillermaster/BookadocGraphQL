@@ -38,6 +38,8 @@ namespace Bookadoc.Api
             ILoggerFactory loggerFactory, BookadocContext db)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
+            loggerFactory.AddDebug();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
