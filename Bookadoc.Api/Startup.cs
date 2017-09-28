@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Bookadoc.Api.Models;
 using Bookadoc.Core.Data;
 using Bookadoc.Data.EntityFramework;
+using Bookadoc.Data.EntityFramework.Seed;
 using Microsoft.EntityFrameworkCore;
 using Bookadoc.Data.EntityFramework.Repositories;
 using Microsoft.Extensions.Logging;

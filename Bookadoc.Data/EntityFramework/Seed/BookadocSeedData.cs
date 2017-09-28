@@ -11,7 +11,6 @@ namespace Bookadoc.Data.EntityFramework.Seed
             {
                 var defaultUser = new User
                 {
-                    Id = 1,
                     Name = "Guillermo",
                     LastName = "Pincay",
                     Email = "guillermaster@gmail.com",
@@ -19,6 +18,17 @@ namespace Bookadoc.Data.EntityFramework.Seed
                     Active = true
                 };
                 db.Users.Add(defaultUser);
+
+                var defaultUser2 = new User
+                {
+                    Name = "Sebastian",
+                    LastName = "Pincay",
+                    Email = "guillesebaspincay@gmail.com",
+                    Password = "123456",
+                    Active = true
+                };
+                db.Users.Add(defaultUser2);
+
                 db.SaveChanges();
             }
         }
