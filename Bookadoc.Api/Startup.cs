@@ -46,6 +46,7 @@ namespace Bookadoc.Api
                 db.EnsureSeedData();
             }
 
+            app.UseStaticFiles();
             app.UseMvc();
         }
     }
