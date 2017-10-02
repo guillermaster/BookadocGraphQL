@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.0.0" />
+    <PackageReference Include="Moq" Version="4.7.127" />
+    <PackageReference Include="xunit" Version="2.3.0-beta5-build3769" />
+    <PackageReference Include="dotnet-test-xunit" Version="2.2.0-preview2-build1029" />
+	<DotNetCliToolReference Include="dotnet-xunit" Version="2.3.0-beta4-build3742" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bookadoc.Core\Bookadoc.Core.csproj" />
+    <ProjectReference Include="..\Bookadoc.Data\Bookadoc.Data.csproj" />
+  </ItemGroup>
+</Project>
