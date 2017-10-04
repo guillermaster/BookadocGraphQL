@@ -39,7 +39,7 @@ namespace Bookadoc.Tests.Unit.Data.EntityFramework.Repositories
 
             // Then
             Assert.NotNull(user);
-            Assert.Equal("R2-D2", user.Name);
+            Assert.Equal("Guillermo", user.Name);
         }
     }
 }

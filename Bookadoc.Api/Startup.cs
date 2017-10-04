@@ -9,6 +9,8 @@ using Bookadoc.Data.EntityFramework.Seed;
 using Microsoft.EntityFrameworkCore;
 using Bookadoc.Data.EntityFramework.Repositories;
 using Microsoft.Extensions.Logging;
+using GraphQL;
+using GraphQL.Types;
 
 namespace Bookadoc.Api
 {
@@ -28,9 +30,12 @@ namespace Bookadoc.Api
 
             services.AddTransient<UserQuery>();
             services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IDocumentExecuter, DocumentExecuter>();
             services.AddDbContext<BookadocContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("BookadocDatabaseConnection"))
             );
+            var sp = services.BuildServiceProvider();
+            services.AddTransient<ISchema>(_ => new Schema { Query = sp.GetService<UserQuery>() });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

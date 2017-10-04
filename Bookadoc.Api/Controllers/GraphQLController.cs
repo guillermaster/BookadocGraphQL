@@ -10,10 +10,13 @@ namespace Bookadoc.Api.Controllers
     public class GraphQLController : Controller
     {
         private UserQuery _userQuery { get; set; }
+        private IDocumentExecuter _documentExecuter { get; set; }
+        private ISchema _schema { get; set; }
 
-        public GraphQLController(UserQuery userQuery)
+        public GraphQLController(IDocumentExecuter documentExecuter, ISchema schema)
         {
-            _userQuery = userQuery;
+            _documentExecuter = documentExecuter;
+            _schema = schema;
         }
 
         [HttpGet]
@@ -33,13 +36,8 @@ namespace Bookadoc.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]GraphQLQuery query)
         {
-            var schema = new Schema { Query = _userQuery };
-
-            var result = await new DocumentExecuter().ExecuteAsync(_ =>
-            {
-                _.Schema = schema;
-                _.Query = query.Query;
-            }).ConfigureAwait(false);
+            var executionOptions = new ExecutionOptions { Schema = _schema, Query = query.Query };
+            var result = await new DocumentExecuter().ExecuteAsync(executionOptions).ConfigureAwait(false);
 
             if(result.Errors?.Count > 0)
             {
