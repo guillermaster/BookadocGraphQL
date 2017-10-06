@@ -1,4 +1,5 @@
 ﻿using Bookadoc.Core.Models;
+using Microsoft.Extensions.Logging;
 using System.Linq;
 
 namespace Bookadoc.Data.EntityFramework.Seed
@@ -7,8 +8,11 @@ namespace Bookadoc.Data.EntityFramework.Seed
     {
         public static void EnsureSeedData(this BookadocContext db)
         {
+            db._logger.LogInformation("Seeding database");
+
             if (!db.Users.Any())
             {
+                db._logger.LogInformation("Seeding users");
                 var defaultUser = new User
                 {
                     Name = "Guillermo",

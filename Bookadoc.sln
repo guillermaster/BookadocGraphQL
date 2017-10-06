@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookadoc.Core", "Bookadoc.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookadoc.Data", "Bookadoc.Data\Bookadoc.Data.csproj", "{1A7BBEE9-DBE0-473F-A61F-A986E3ED69A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookadoc.Tests.Unit", "Bookadoc.Tests.Unit\Bookadoc.Tests.Unit.csproj", "{F074D694-258B-4646-BCDD-6A34AB1B3D38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookadoc.Tests.Unit", "Bookadoc.Tests.Unit\Bookadoc.Tests.Unit.csproj", "{F074D694-258B-4646-BCDD-6A34AB1B3D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookadoc.Tests.Integration", "Bookadoc.Tests.Integration\Bookadoc.Tests.Integration.csproj", "{6EA524D7-822F-4125-A45A-80965A873CE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F074D694-258B-4646-BCDD-6A34AB1B3D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F074D694-258B-4646-BCDD-6A34AB1B3D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F074D694-258B-4646-BCDD-6A34AB1B3D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA524D7-822F-4125-A45A-80965A873CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA524D7-822F-4125-A45A-80965A873CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA524D7-822F-4125-A45A-80965A873CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA524D7-822F-4125-A45A-80965A873CE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

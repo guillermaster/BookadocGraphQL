@@ -3,6 +3,7 @@ using Bookadoc.Api.Models;
 using GraphQL;
 using GraphQL.Types;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Moq;
 using System;
 using System.Collections.Generic;
@@ -23,7 +24,8 @@ namespace Bookadoc.Tests.Unit.Api.Controllers
             documentExecutor.Setup(x => x.ExecuteAsync(It.IsAny<ExecutionOptions>()))
                 .Returns(Task.FromResult(new ExecutionResult()));
             var schema = new Mock<ISchema>();
-            _graphqlController = new GraphQLController(documentExecutor.Object, schema.Object);
+            var logger = new Mock<ILogger<GraphQLController>>();
+            _graphqlController = new GraphQLController(documentExecutor.Object, schema.Object, logger.Object);
         }
 
         [Fact]

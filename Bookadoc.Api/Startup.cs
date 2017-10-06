@@ -22,6 +22,7 @@ namespace Bookadoc.Api
         }
 
         public IConfiguration Configuration { get; }
+        private IHostingEnvironment Env { get; set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -30,10 +31,20 @@ namespace Bookadoc.Api
 
             services.AddTransient<UserQuery>();
             services.AddTransient<IUserRepository, UserRepository>();
+
+            if(Env.IsEnvironment("Test"))
+            {
+                services.AddDbContext<BookadocContext>(options => options.UseInMemoryDatabase(databaseName: "Bookadoc"));
+            }
+            else
+            {
+                services.AddDbContext<BookadocContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("BookadocDatabaseConnection"))
+                );
+            }
+
             services.AddTransient<IDocumentExecuter, DocumentExecuter>();
-            services.AddDbContext<BookadocContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("BookadocDatabaseConnection"))
-            );
+            
             var sp = services.BuildServiceProvider();
             services.AddTransient<ISchema>(_ => new Schema { Query = sp.GetService<UserQuery>() });
         }
