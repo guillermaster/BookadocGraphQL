@@ -41,11 +41,11 @@ namespace Bookadoc.Tests.Unit.Api.Controllers
         public async void ReturnNotNullExecutionResult()
         {
             // Given
-            var query = new GraphQLQuery { Query = @"{ ""query"": ""query { first { id name } } }""" };
+            var query = new GraphQLQuery { Query = @"{ ""query"": ""query { first { id name } }"" }" };
 
             // When
             var result = await _graphqlController.Post(query);
-
+            
             // Then
             Assert.NotNull(result);
             var okObjectResult = Assert.IsType<OkObjectResult>(result);

@@ -9,7 +9,6 @@ namespace Bookadoc.Api.Controllers
     [Route("api/[controller]")]
     public class GraphQLController : Controller
     {
-        private UserQuery _userQuery { get; set; }
         private IDocumentExecuter _documentExecuter { get; set; }
         private ISchema _schema { get; set; }
 
