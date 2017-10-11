@@ -198,6 +198,13 @@
       <Files />
       <Classes />
     </Module>
+    <Module skippedDueTo="Filter" hash="DD-8D-C4-9B-06-85-CC-53-A2-C6-FD-C1-8A-18-54-DF-36-F2-BB-FB">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.0.0\Microsoft.DotNet.Cli.CommandLine.dll</ModulePath>
+      <ModuleTime>2017-08-03T17:38:12Z</ModuleTime>
+      <ModuleName>Microsoft.DotNet.Cli.CommandLine</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
     <Module skippedDueTo="Filter" hash="FB-85-16-BA-B9-27-D4-54-BE-3D-21-48-B1-DC-3D-6E-22-5E-D1-D6">
       <ModulePath>C:\Program Files\dotnet\sdk\2.0.0\Microsoft.ApplicationInsights.dll</ModulePath>
       <ModuleTime>2017-08-03T17:38:10Z</ModuleTime>
@@ -205,10 +212,10 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="DD-8D-C4-9B-06-85-CC-53-A2-C6-FD-C1-8A-18-54-DF-36-F2-BB-FB">
-      <ModulePath>C:\Program Files\dotnet\sdk\2.0.0\Microsoft.DotNet.Cli.CommandLine.dll</ModulePath>
-      <ModuleTime>2017-08-03T17:38:12Z</ModuleTime>
-      <ModuleName>Microsoft.DotNet.Cli.CommandLine</ModuleName>
+    <Module skippedDueTo="Filter" hash="2E-3F-98-9F-F8-96-78-BA-71-3A-6A-0C-9C-B3-D0-39-1E-46-25-10">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Text.RegularExpressions.dll</ModulePath>
+      <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
+      <ModuleName>System.Text.RegularExpressions</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -223,13 +230,6 @@
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Private.Xml.Linq.dll</ModulePath>
       <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
       <ModuleName>System.Private.Xml.Linq</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="2E-3F-98-9F-F8-96-78-BA-71-3A-6A-0C-9C-B3-D0-39-1E-46-25-10">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Text.RegularExpressions.dll</ModulePath>
-      <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
-      <ModuleName>System.Text.RegularExpressions</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -275,17 +275,17 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="86-5B-86-E2-06-81-2C-73-3B-6D-BC-9C-E7-90-26-27-45-9D-47-99">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.ComponentModel.Primitives.dll</ModulePath>
-      <ModuleTime>2017-07-20T21:22:06Z</ModuleTime>
-      <ModuleName>System.ComponentModel.Primitives</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="E6-69-68-08-E2-62-0F-85-F0-BE-8F-4D-51-D1-88-8E-81-FD-73-0B">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Globalization.dll</ModulePath>
       <ModuleTime>2017-07-20T21:22:06Z</ModuleTime>
       <ModuleName>System.Globalization</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="86-5B-86-E2-06-81-2C-73-3B-6D-BC-9C-E7-90-26-27-45-9D-47-99">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.ComponentModel.Primitives.dll</ModulePath>
+      <ModuleTime>2017-07-20T21:22:06Z</ModuleTime>
+      <ModuleName>System.ComponentModel.Primitives</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -356,6 +356,20 @@
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Diagnostics.DiagnosticSource.dll</ModulePath>
       <ModuleTime>2017-07-20T21:22:06Z</ModuleTime>
       <ModuleName>System.Diagnostics.DiagnosticSource</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="94-15-48-19-F1-3C-5A-72-8C-BC-69-73-B7-42-21-90-E4-5A-A9-B9">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.X509Certificates.dll</ModulePath>
+      <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.X509Certificates</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="11-29-0C-F8-CE-73-3F-3E-06-AF-A0-16-05-96-4D-5A-A7-6A-DF-C2">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Collections.NonGeneric.dll</ModulePath>
+      <ModuleTime>2017-07-20T21:22:06Z</ModuleTime>
+      <ModuleName>System.Collections.NonGeneric</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -660,17 +674,17 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="3E-2C-80-45-4B-5B-8B-5F-09-84-82-17-AA-7B-43-BF-3F-43-55-D2">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Resources.ResourceManager.dll</ModulePath>
-      <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
-      <ModuleName>System.Resources.ResourceManager</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="1D-2D-98-E4-A2-F2-43-8E-21-6C-72-DF-A8-3D-26-3C-24-D6-D9-12">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Algorithms.dll</ModulePath>
       <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
       <ModuleName>System.Security.Cryptography.Algorithms</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3E-2C-80-45-4B-5B-8B-5F-09-84-82-17-AA-7B-43-BF-3F-43-55-D2">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Resources.ResourceManager.dll</ModulePath>
+      <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
+      <ModuleName>System.Resources.ResourceManager</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -1136,27 +1150,6 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="26-B6-2A-48-3A-C2-D7-FF-90-A6-A4-40-4C-01-ED-9D-D5-81-FF-AF">
-      <ModulePath>C:\Program Files\dotnet\sdk\2.0.0\Microsoft.DotNet.PlatformAbstractions.dll</ModulePath>
-      <ModuleTime>2017-08-03T17:38:12Z</ModuleTime>
-      <ModuleName>Microsoft.DotNet.PlatformAbstractions</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="1D-2D-98-E4-A2-F2-43-8E-21-6C-72-DF-A8-3D-26-3C-24-D6-D9-12">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Algorithms.dll</ModulePath>
-      <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
-      <ModuleName>System.Security.Cryptography.Algorithms</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="C9-B1-4A-54-97-4E-1E-D7-82-8B-E9-17-E9-56-A6-83-32-BF-A1-41">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Primitives.dll</ModulePath>
-      <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
-      <ModuleName>System.Security.Cryptography.Primitives</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="DF-1D-D6-51-B7-A1-8A-53-06-A0-34-64-B1-6C-11-1E-7F-0F-CE-94">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Threading.Tasks.Dataflow.dll</ModulePath>
       <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
@@ -1171,10 +1164,31 @@
       <Files />
       <Classes />
     </Module>
+    <Module skippedDueTo="Filter" hash="26-B6-2A-48-3A-C2-D7-FF-90-A6-A4-40-4C-01-ED-9D-D5-81-FF-AF">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.0.0\Microsoft.DotNet.PlatformAbstractions.dll</ModulePath>
+      <ModuleTime>2017-08-03T17:38:12Z</ModuleTime>
+      <ModuleName>Microsoft.DotNet.PlatformAbstractions</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
     <Module skippedDueTo="Filter" hash="3E-2C-80-45-4B-5B-8B-5F-09-84-82-17-AA-7B-43-BF-3F-43-55-D2">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Resources.ResourceManager.dll</ModulePath>
       <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
       <ModuleName>System.Resources.ResourceManager</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1D-2D-98-E4-A2-F2-43-8E-21-6C-72-DF-A8-3D-26-3C-24-D6-D9-12">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Algorithms.dll</ModulePath>
+      <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Algorithms</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C9-B1-4A-54-97-4E-1E-D7-82-8B-E9-17-E9-56-A6-83-32-BF-A1-41">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Primitives.dll</ModulePath>
+      <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Primitives</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -1311,13 +1325,6 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="42-EF-DB-53-B2-A2-29-DF-FE-89-B4-25-36-E6-70-A0-D9-CF-30-6D">
-      <ModulePath>C:\Program Files\dotnet\sdk\2.0.0\NuGet.Common.dll</ModulePath>
-      <ModuleTime>2017-08-03T17:38:14Z</ModuleTime>
-      <ModuleName>NuGet.Common</ModuleName>
-      <Files />
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="CD-6B-BC-AF-EF-21-6A-54-B4-B0-81-FD-3E-17-A9-EA-BA-D0-23-3D">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Net.Http.dll</ModulePath>
       <ModuleTime>2017-07-20T21:22:06Z</ModuleTime>
@@ -1325,10 +1332,10 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="ED-46-3A-5F-F7-9C-67-C7-90-67-C9-D6-B9-9B-EC-00-E8-1F-73-D6">
-      <ModulePath>C:\Program Files\dotnet\sdk\2.0.0\Newtonsoft.Json.dll</ModulePath>
-      <ModuleTime>2017-08-03T17:32:18Z</ModuleTime>
-      <ModuleName>Newtonsoft.Json</ModuleName>
+    <Module skippedDueTo="Filter" hash="42-EF-DB-53-B2-A2-29-DF-FE-89-B4-25-36-E6-70-A0-D9-CF-30-6D">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.0.0\NuGet.Common.dll</ModulePath>
+      <ModuleTime>2017-08-03T17:38:14Z</ModuleTime>
+      <ModuleName>NuGet.Common</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -1336,6 +1343,13 @@
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Net.Primitives.dll</ModulePath>
       <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
       <ModuleName>System.Net.Primitives</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="ED-46-3A-5F-F7-9C-67-C7-90-67-C9-D6-B9-9B-EC-00-E8-1F-73-D6">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.0.0\Newtonsoft.Json.dll</ModulePath>
+      <ModuleTime>2017-08-03T17:32:18Z</ModuleTime>
+      <ModuleName>Newtonsoft.Json</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -1364,6 +1378,13 @@
       <ModulePath>C:\Program Files\dotnet\sdk\2.0.0\NuGet.Versioning.dll</ModulePath>
       <ModuleTime>2017-08-03T17:38:14Z</ModuleTime>
       <ModuleName>NuGet.Versioning</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="94-15-48-19-F1-3C-5A-72-8C-BC-69-73-B7-42-21-90-E4-5A-A9-B9">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.X509Certificates.dll</ModulePath>
+      <ModuleTime>2017-07-20T21:22:08Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.X509Certificates</ModuleName>
       <Files />
       <Classes />
     </Module>
@@ -3405,7 +3426,7 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="2F-9E-C7-ED-C9-C3-D9-6E-F9-22-C0-88-49-55-74-E5-A1-71-3F-0F">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.TestPlatform.CoreUtilities.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.TestPlatform.CoreUtilities.dll</ModulePath>
       <ModuleTime>2017-08-07T08:19:48Z</ModuleTime>
       <ModuleName>Microsoft.TestPlatform.CoreUtilities</ModuleName>
       <Files />
@@ -3461,28 +3482,28 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="1F-1A-A0-11-B4-1A-DE-54-D9-E9-12-F2-69-A7-33-3C-F8-AD-A1-84">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.TestPlatform.CrossPlatEngine.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.TestPlatform.CrossPlatEngine.dll</ModulePath>
       <ModuleTime>2017-08-07T08:19:50Z</ModuleTime>
       <ModuleName>Microsoft.TestPlatform.CrossPlatEngine</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="9A-2D-C7-ED-1F-77-65-C8-90-CC-53-FA-27-13-0B-63-CD-58-08-DF">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.TestPlatform.CommunicationUtilities.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.TestPlatform.CommunicationUtilities.dll</ModulePath>
       <ModuleTime>2017-08-07T08:19:50Z</ModuleTime>
       <ModuleName>Microsoft.TestPlatform.CommunicationUtilities</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="ED-A3-62-93-7C-1B-95-ED-34-C6-F4-C6-A6-67-D2-8B-57-67-15-A2">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.Common.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.Common.dll</ModulePath>
       <ModuleTime>2017-08-07T08:19:50Z</ModuleTime>
       <ModuleName>Microsoft.VisualStudio.TestPlatform.Common</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="43-7D-3E-04-97-52-59-32-EE-FD-23-70-E5-CC-25-9A-1D-FF-CE-C8">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</ModulePath>
       <ModuleTime>2017-08-07T08:19:48Z</ModuleTime>
       <ModuleName>Microsoft.VisualStudio.TestPlatform.ObjectModel</ModuleName>
       <Files />
@@ -3496,14 +3517,14 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="16-03-1B-46-DB-1F-B1-BA-A5-E0-00-38-06-DA-E8-13-E1-D4-32-D2">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.TestPlatform.PlatformAbstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.TestPlatform.PlatformAbstractions.dll</ModulePath>
       <ModuleTime>2017-08-07T08:19:48Z</ModuleTime>
       <ModuleName>Microsoft.TestPlatform.PlatformAbstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="FC-B1-09-E5-22-16-6B-25-6D-30-9D-DF-40-6E-AA-B9-99-37-B2-45">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Newtonsoft.Json.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Newtonsoft.Json.dll</ModulePath>
       <ModuleTime>2017-03-21T01:03:18Z</ModuleTime>
       <ModuleName>Newtonsoft.Json</ModuleName>
       <Files />
@@ -3776,21 +3797,21 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="39-95-CB-43-60-44-C5-0A-ED-3C-D0-80-3B-AF-28-D9-93-F2-5C-70">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll</ModulePath>
       <ModuleTime>2017-02-19T20:24:26Z</ModuleTime>
       <ModuleName>xunit.runner.visualstudio.dotnetcore.testadapter</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="3F-67-C0-63-F5-26-AA-0D-5F-EF-F7-C8-D5-74-50-99-8E-97-44-9A">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.runner.utility.netstandard15.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.runner.utility.netstandard15.dll</ModulePath>
       <ModuleTime>2017-02-19T20:24:26Z</ModuleTime>
       <ModuleName>xunit.runner.utility.netstandard15</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="0D-93-02-F5-BA-A6-97-B2-1E-7D-A1-81-8A-4F-5F-B9-97-BB-A9-BC">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.abstractions.dll</ModulePath>
       <ModuleTime>2016-08-09T13:37:58Z</ModuleTime>
       <ModuleName>xunit.abstractions</ModuleName>
       <Files />
@@ -3853,14 +3874,14 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="B7-DD-9B-6B-96-D4-2D-D3-08-1C-F6-34-78-54-00-AC-5E-80-6C-7F">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.DependencyModel.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.DependencyModel.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.2587118Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.DependencyModel</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="73-5E-CA-54-12-17-C0-76-D5-5D-8B-F2-C7-D4-97-9F-D5-F9-E9-49">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.DotNet.PlatformAbstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.DotNet.PlatformAbstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:31.2245955Z</ModuleTime>
       <ModuleName>Microsoft.DotNet.PlatformAbstractions</ModuleName>
       <Files />
@@ -3887,17 +3908,17 @@
       <Files />
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="B2-BD-95-8B-BE-53-21-89-B6-DB-05-7F-51-7E-E0-6F-B7-7B-A6-8F">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Bookadoc.Tests.Unit.dll</ModulePath>
-      <ModuleTime>2017-10-11T03:35:57.8568124Z</ModuleTime>
+    <Module skippedDueTo="Filter" hash="BD-F8-58-3B-F6-49-DD-AA-4A-19-F1-EB-D3-EB-3C-B6-E6-FC-A6-C0">
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Bookadoc.Tests.Unit.dll</ModulePath>
+      <ModuleTime>2017-10-11T03:55:56.0691383Z</ModuleTime>
       <ModuleName>Bookadoc.Tests.Unit</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module hash="EA-B6-88-CE-94-43-91-B5-19-C5-81-84-0C-4C-BC-E6-A9-48-43-6D">
       <Summary numSequencePoints="12" visitedSequencePoints="10" numBranchPoints="12" visitedBranchPoints="10" sequenceCoverage="83.33" branchCoverage="83.33" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="10" numMethods="12" />
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Bookadoc.Core.dll</ModulePath>
-      <ModuleTime>2017-10-11T03:35:39.5057628Z</ModuleTime>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Bookadoc.Core.dll</ModulePath>
+      <ModuleTime>2017-10-11T03:55:38.1759069Z</ModuleTime>
       <ModuleName>Bookadoc.Core</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Core\Models\User.cs" />
@@ -4052,14 +4073,14 @@
       </Classes>
     </Module>
     <Module skippedDueTo="Filter" hash="91-95-3E-BC-91-EB-E7-B3-70-B2-5F-1A-5A-80-F2-66-B1-00-E1-C9">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.9057488Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Mvc.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="FF-94-6F-16-6E-20-00-68-CC-C7-B0-9D-6A-F6-0B-DB-BE-81-09-92">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Castle.Core.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Castle.Core.dll</ModulePath>
       <ModuleTime>2017-07-12T11:37:22Z</ModuleTime>
       <ModuleName>Castle.Core</ModuleName>
       <Files />
@@ -4073,28 +4094,28 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="B6-1C-A2-3C-35-E0-C3-0D-41-97-34-89-67-64-E9-B0-CC-19-D4-D1">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\dotnet-test-xunit.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\dotnet-test-xunit.dll</ModulePath>
       <ModuleTime>2016-06-27T16:17:06Z</ModuleTime>
       <ModuleName>dotnet-test-xunit</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="0D-B4-16-CD-80-CA-3A-20-C6-4B-7F-5F-5E-5A-C3-B6-18-CA-C7-72">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.runner.utility.dotnet.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.runner.utility.dotnet.dll</ModulePath>
       <ModuleTime>2016-06-27T14:43:52Z</ModuleTime>
       <ModuleName>xunit.runner.utility.dotnet</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="6E-D2-1C-DF-16-FD-F4-77-A8-A9-B0-11-F9-69-BA-44-75-21-50-A4">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Testing.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Testing.Abstractions.dll</ModulePath>
       <ModuleTime>2016-06-22T02:04:56Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Testing.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="6D-9B-A1-AE-BC-E4-61-5D-CE-CC-16-56-03-F2-7B-42-DE-A9-04-46">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\GraphQL.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\GraphQL.dll</ModulePath>
       <ModuleTime>2017-09-06T04:48:24Z</ModuleTime>
       <ModuleName>GraphQL</ModuleName>
       <Files />
@@ -4108,14 +4129,14 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="4A-44-32-D6-69-DE-BD-D8-28-78-65-78-D7-D7-7D-EF-55-F6-B8-20">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\GraphQL-Parser.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\GraphQL-Parser.dll</ModulePath>
       <ModuleTime>2016-10-09T03:36:28Z</ModuleTime>
       <ModuleName>GraphQL-Parser</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="D1-A1-7B-91-14-97-78-D4-0E-C7-3E-F1-93-14-25-C7-25-FC-67-C8">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.ApplicationInsights.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.ApplicationInsights.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.3726611Z</ModuleTime>
       <ModuleName>Microsoft.ApplicationInsights</ModuleName>
       <Files />
@@ -4129,14 +4150,14 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="68-4A-44-F5-A5-88-59-FB-9A-D8-7E-78-15-94-80-73-0B-A4-83-37">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.ApplicationInsights.AspNetCore.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.ApplicationInsights.AspNetCore.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.4486655Z</ModuleTime>
       <ModuleName>Microsoft.ApplicationInsights.AspNetCore</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="21-26-28-D9-55-1D-60-5C-FD-D4-7F-1A-48-69-0E-C8-5D-DD-BB-FE">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Options.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Options.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.7457397Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Options</ModuleName>
       <Files />
@@ -4150,7 +4171,7 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="A4-BB-61-8C-F7-7D-1A-98-1D-4B-10-DB-33-B2-78-5F-65-D5-34-79">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Hosting.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Hosting.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.5287273Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Hosting.Abstractions</ModuleName>
       <Files />
@@ -4164,91 +4185,91 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="2D-74-FE-5A-4E-12-66-59-A6-99-7B-1E-BA-46-20-3F-72-A8-11-F0">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.5987313Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Http.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="BA-18-12-21-AD-D6-B9-E0-C0-A7-2E-96-C3-F5-A6-A8-52-C6-92-0F">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.5437281Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Logging.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="C3-01-E1-DD-86-7F-64-F6-1A-EB-E7-71-36-CC-BE-3C-A2-DE-45-E8">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AI.DependencyCollector.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AI.DependencyCollector.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.5146693Z</ModuleTime>
       <ModuleName>Microsoft.AI.DependencyCollector</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="31-39-8A-0F-CE-CE-5A-64-69-3E-82-F3-D8-B9-53-09-2C-9F-F7-D8">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.52767Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="B8-B7-7B-FC-C8-26-AF-67-F9-BE-8F-63-CD-86-CE-C2-9C-7B-17-BA">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Antiforgery.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Antiforgery.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.5696724Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Antiforgery</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="81-4D-6C-5C-D4-01-ED-C7-60-BA-8B-56-2C-84-52-F8-A6-36-81-12">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.ObjectPool.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.ObjectPool.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.734739Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.ObjectPool</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="22-8D-A0-AC-8F-DE-81-7D-D0-E7-26-DE-58-73-F3-A1-D6-03-EE-CB">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Http.Features.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Http.Features.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.6357334Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Http.Features</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="B6-60-6F-6B-EB-39-A2-F1-64-5E-20-99-63-07-C2-1D-B1-C5-69-FA">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Primitives.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Primitives.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.7827418Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Primitives</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="F3-F5-96-6D-30-88-51-AA-AF-BA-78-F8-BF-21-E4-F3-7A-A2-AB-EB">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.5866734Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.ApplicationInsights.HostingStartup</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="29-F6-AF-AD-EA-9F-E9-B3-6D-9A-6B-62-4A-B3-CA-75-FF-12-7D-14">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Razor.Runtime.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Razor.Runtime.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.6708498Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Razor.Runtime</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="85-8E-27-00-FA-44-33-87-C3-68-0E-57-7E-2C-CD-7A-EA-9C-6B-F5">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.6076746Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Authentication</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="5C-E5-38-8D-02-8B-D6-36-53-71-32-B4-00-2B-0D-CE-57-3B-36-FA">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.6216754Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Authentication.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="4D-44-07-9B-52-79-67-91-CD-0F-19-30-3B-86-C0-5B-24-34-1A-ED">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.Cookies.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.Cookies.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.6386763Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Authentication.Cookies</ModuleName>
       <Files />
@@ -4262,7 +4283,7 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="49-5F-64-FE-08-3E-24-8E-BE-74-98-21-15-ED-41-51-88-49-91-4B">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.Core.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.Core.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.6526771Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Authentication.Core</ModuleName>
       <Files />
@@ -4276,224 +4297,224 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="AE-1A-D4-65-1F-B4-FE-74-C5-DF-A4-56-8D-B7-3B-17-25-64-6C-4A">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.Facebook.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.Facebook.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.6686781Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Authentication.Facebook</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="13-EC-7A-21-39-02-34-75-12-B5-14-92-F5-2B-DF-86-A3-53-7F-B9">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.OAuth.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.OAuth.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.8516885Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Authentication.OAuth</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="5F-1D-C2-BF-5A-5F-E7-C9-43-E0-0C-59-63-94-36-FF-84-6E-6D-B9">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.Google.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.Google.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.790685Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Authentication.Google</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="E3-F9-66-A9-B9-04-8F-26-B7-59-9B-8E-39-C2-9A-AA-CE-2A-D5-D7">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.8186866Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Authentication.JwtBearer</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="36-D6-7C-17-D5-27-A1-65-06-4A-4E-5A-14-F0-58-2F-9F-E5-F3-25">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.9398652Z</ModuleTime>
       <ModuleName>Microsoft.IdentityModel.Protocols.OpenIdConnect</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="2B-E2-A6-3E-5A-C4-E9-09-65-6E-6A-81-4A-BB-1C-B9-DB-41-B5-0E">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.8306873Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Authentication.MicrosoftAccount</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="E5-E3-A6-8A-42-30-46-FC-43-15-D1-34-5B-D2-0C-B1-A8-F4-6A-CB">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.8886906Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Authentication.OpenIdConnect</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="1C-DF-05-57-44-49-97-A4-D4-F1-B0-67-9D-A9-4C-72-2C-4E-3F-39">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.IdentityModel.Protocols.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.IdentityModel.Protocols.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.8258586Z</ModuleTime>
       <ModuleName>Microsoft.IdentityModel.Protocols</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="B8-AA-D0-59-A2-6B-C2-3C-25-F5-12-8B-98-63-C1-2A-3A-B3-AA-C9">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.Twitter.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authentication.Twitter.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.9156922Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Authentication.Twitter</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="26-23-22-C8-61-57-47-5A-54-84-D1-FB-8A-82-D2-36-30-37-08-7C">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authorization.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authorization.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.9396936Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Authorization</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="BB-D7-70-80-D7-AC-EF-21-70-A9-4F-0B-9E-52-DE-AE-3D-70-0C-D4">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authorization.Policy.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Authorization.Policy.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.947694Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Authorization.Policy</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="F5-BD-05-96-D9-93-07-9F-CA-50-84-D4-40-E3-9B-FF-80-20-11-18">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.AzureAppServices.HostingStartup.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.AzureAppServices.HostingStartup.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.9876963Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.AzureAppServices.HostingStartup</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="45-4A-53-D1-89-77-98-A5-F3-1D-83-B0-24-41-8A-3F-1D-5B-C2-F5">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.AzureAppServicesIntegration.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.AzureAppServicesIntegration.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.0326989Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.AzureAppServicesIntegration</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="18-02-FE-41-04-95-51-9C-88-5E-36-BE-4C-31-E8-34-FF-F4-FA-F3">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.CookiePolicy.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.CookiePolicy.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.297714Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.CookiePolicy</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="46-A2-9B-9F-92-D9-9F-81-97-A2-7D-63-3E-56-DA-78-06-DA-9E-83">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Cors.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Cors.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.3067146Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Cors</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="D5-6D-01-12-19-AF-F1-DB-6C-DD-74-65-40-6B-FB-40-92-9E-E3-E7">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Cryptography.Internal.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Cryptography.Internal.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.3157151Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Cryptography.Internal</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="2B-91-CD-CD-0C-59-D5-01-CC-79-19-D7-29-D9-34-23-8B-51-AB-9F">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.3237155Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Cryptography.KeyDerivation</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="34-9B-F3-E7-79-37-D7-1D-48-F9-F7-32-0E-49-34-23-74-37-2C-77">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.DataProtection.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.DataProtection.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.3577175Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.DataProtection</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="6A-4F-D1-BF-E6-B6-DF-26-D0-7C-66-75-61-D4-D9-3A-C5-14-C9-65">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.3777186Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.DataProtection.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="C5-8F-16-C2-97-76-20-EE-C7-8F-49-20-1F-6A-B1-08-30-ED-6D-93">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.DataProtection.AzureStorage.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.DataProtection.AzureStorage.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.3977198Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.DataProtection.AzureStorage</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="AC-2B-93-C1-ED-15-88-C6-49-01-CF-A3-5C-96-2C-EA-95-12-32-3F">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.DataProtection.Extensions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.DataProtection.Extensions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.4137207Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.DataProtection.Extensions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="49-35-51-2A-64-0E-A0-E8-63-34-5A-A8-55-97-DC-CA-7F-9B-47-4D">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Diagnostics.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Diagnostics.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.4407222Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Diagnostics</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="67-39-23-EC-16-04-96-1C-CE-B4-A7-96-01-1B-D5-D7-64-AC-92-61">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.4517229Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Diagnostics.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="60-28-C2-87-A5-AF-7F-4D-4C-86-47-B9-C2-EE-B5-63-98-28-57-8D">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.4677238Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="6D-1A-AC-6A-90-8B-40-85-8B-17-A7-C5-BA-D5-B0-A5-E3-FA-9D-B2">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:30Z</ModuleTime>
       <ModuleName>Microsoft.EntityFrameworkCore</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="E7-DA-E3-B7-DD-58-B5-EA-77-AC-03-04-B0-86-C0-CD-4B-A2-47-93">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Hosting.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Hosting.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.4907251Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Hosting</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="70-ED-8E-E6-63-0E-54-71-25-26-7D-FB-19-FD-2B-14-A0-87-5E-A6">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.2357105Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.DependencyInjection.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="61-0F-1A-0E-E2-1A-40-A5-6B-4E-64-1E-92-C2-FC-0E-E6-EB-FD-8E">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.9396936Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Configuration.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="F7-0A-89-EC-6F-63-1B-DF-3E-9D-B3-E8-13-0A-AB-2C-6F-A7-0E-A5">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.5377278Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Hosting.Server.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="F9-A6-27-22-8B-67-30-D7-71-66-82-CF-19-6D-24-EA-AF-BB-31-D3">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.FileProviders.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.FileProviders.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.2927138Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.FileProviders.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="24-E2-10-D5-57-4C-1D-9F-00-E9-0B-3F-5E-73-DA-4D-BF-C0-73-A1">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Html.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Html.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.5487284Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Html.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="61-76-10-DE-30-27-3B-F6-98-FD-61-A8-A7-38-A4-09-78-F9-13-13">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Http.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Http.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.5637293Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Http</ModuleName>
       <Files />
@@ -4514,112 +4535,112 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="88-48-B6-6B-81-35-75-70-AE-41-62-99-3A-C1-B3-BF-A2-82-0C-E5">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.WebUtilities.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.WebUtilities.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:36.2068804Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.WebUtilities</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="79-BC-FA-A8-73-98-F7-09-A0-2D-05-B1-C5-A7-65-94-32-C6-39-0B">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Http.Extensions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Http.Extensions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.6187324Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Http.Extensions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="F1-CB-72-5D-CE-24-DE-F3-6B-BC-2B-40-1A-8A-7A-01-46-DB-2E-4C">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.HttpOverrides.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.HttpOverrides.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.6937367Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.HttpOverrides</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="DF-50-08-F4-BC-B1-71-25-E6-70-86-E4-30-13-24-5B-53-8B-2A-B4">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Identity.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Identity.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.7077375Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Identity</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="60-6F-C2-5E-2A-BE-6E-C0-D1-8A-18-4D-7B-07-56-02-C1-AD-A2-9D">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Identity.Core.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Identity.Core.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.4757242Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Identity.Core</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="72-C3-F4-19-F3-05-A3-93-FD-F3-25-9B-28-8B-34-56-B4-3C-BE-3E">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.7237384Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Identity.EntityFrameworkCore</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="FD-1E-1F-9B-EC-EA-F2-2B-14-B2-DD-CC-53-9C-FC-D8-19-23-36-D1">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.488725Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Identity.Stores</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="87-93-5D-33-3A-FB-66-A7-69-DF-C5-D8-80-37-88-74-8D-86-DE-8B">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.JsonPatch.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.JsonPatch.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.7467397Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.JsonPatch</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="32-8C-B4-5F-7F-92-7E-2C-4F-8A-61-AE-10-7D-D9-73-CA-E5-5E-5C">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Localization.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Localization.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.7727412Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Localization</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="A0-DE-9B-EE-63-B4-61-21-AD-81-50-AF-20-2A-EB-63-C4-3C-0A-B5">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Localization.Routing.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Localization.Routing.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.7877421Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Localization.Routing</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="0E-59-9A-BB-AB-E9-04-AD-88-AB-18-7E-59-DA-37-6C-A3-06-C2-BA">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.8067432Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.MiddlewareAnalysis</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="B8-60-16-EF-83-F9-B9-49-D9-19-B8-63-1A-8A-EE-C7-91-6A-90-B1">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.8227441Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Mvc</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="F3-5A-1A-52-DC-24-EE-ED-C4-33-C0-2A-9D-37-5E-95-BB-EC-AB-BF">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.ApiExplorer.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.ApiExplorer.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.9247499Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Mvc.ApiExplorer</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="CB-4B-C1-3E-17-44-1F-59-04-91-FF-A1-D0-55-3A-40-C8-3C-89-C7">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Core.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Core.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:34.0597576Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Mvc.Core</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="A2-4B-A0-6F-69-7D-36-91-D8-EE-21-49-6A-71-B3-1C-76-95-2F-1B">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Routing.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Routing.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.7808561Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Routing.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="4D-88-0C-05-35-64-E3-E5-34-3A-B4-00-4D-1E-9B-71-1D-0C-C7-7A">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Routing.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Routing.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.7658552Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Routing</ModuleName>
       <Files />
@@ -4633,14 +4654,14 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="D5-CE-95-9F-AD-E2-C3-D5-7B-62-E3-44-89-F1-C7-FD-28-97-E8-93">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Cors.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Cors.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:34.0787587Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Mvc.Cors</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="42-74-7A-80-7B-F9-DD-96-20-31-33-79-10-42-74-19-8D-E7-91-EF">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.DataAnnotations.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.DataAnnotations.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:34.0977598Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Mvc.DataAnnotations</ModuleName>
       <Files />
@@ -4654,84 +4675,84 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="1C-2B-69-99-DC-9F-70-1F-B0-78-DE-45-3B-BE-83-BA-06-C0-20-8A">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Formatters.Json.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Formatters.Json.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:34.1107605Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Mvc.Formatters.Json</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="16-A2-95-EF-C4-F9-7F-44-C2-BB-EE-2F-56-43-6B-F7-89-25-3B-36">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:34.1257614Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Mvc.Formatters.Xml</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="2F-7E-06-4C-73-6C-D2-6E-FD-3E-54-CD-6F-C9-52-EC-26-B7-DA-8F">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Localization.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Localization.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:34.1377621Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Mvc.Localization</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="27-64-EC-5A-27-1D-02-B5-46-F7-38-87-04-72-45-05-2D-29-04-1C">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\System.Text.Encodings.Web.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\System.Text.Encodings.Web.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.6707354Z</ModuleTime>
       <ModuleName>System.Text.Encodings.Web</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="84-3B-18-2D-F9-90-F3-1F-4A-F1-4D-82-A4-63-19-FA-2F-72-60-DF">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.2288245Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Mvc.ViewFeatures</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="1A-9A-EB-D8-48-2E-42-C5-11-5C-81-5C-CD-B1-2D-B1-05-3E-15-EA">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Razor.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Razor.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:34.206766Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Mvc.Razor</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="52-43-6B-C6-FE-46-7A-96-C9-3A-B6-5B-04-42-36-4E-B0-50-E9-83">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Razor.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Razor.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.3638322Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Razor</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="9A-08-57-23-3C-F6-A3-6D-65-39-29-78-28-C6-BD-1B-D5-D5-1D-66">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.CodeAnalysis.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.CodeAnalysis.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:40.1071035Z</ModuleTime>
       <ModuleName>Microsoft.CodeAnalysis</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="23-62-71-D2-AB-4E-9E-B2-21-C7-22-DA-51-EB-E8-2F-79-7C-28-CD">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.CodeAnalysis.CSharp.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.CodeAnalysis.CSharp.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:30.464552Z</ModuleTime>
       <ModuleName>Microsoft.CodeAnalysis.CSharp</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="91-D9-4F-65-D4-6C-14-BF-EE-16-69-0F-BD-06-9B-E3-14-52-F9-65">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Razor.Language.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Razor.Language.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.6558489Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Razor.Language</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="DD-B4-91-2F-31-3F-B9-A7-C5-20-A3-E2-3C-29-30-2C-4A-0A-6A-57">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.CodeAnalysis.Razor.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.CodeAnalysis.Razor.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:31.0575859Z</ModuleTime>
       <ModuleName>Microsoft.CodeAnalysis.Razor</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="AF-C6-44-DB-FB-49-29-3B-E6-30-93-A5-F7-9F-49-A6-A8-FC-25-FA">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:34.2307674Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Mvc.Razor.Extensions</ModuleName>
       <Files />
@@ -4745,63 +4766,63 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="EB-42-23-07-4A-91-F2-2D-3B-2E-C3-92-CB-43-9F-8B-11-4B-F3-BD">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.RazorPages.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.RazorPages.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:34.3827761Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Mvc.RazorPages</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="01-F7-A6-06-6E-95-B1-1E-FB-0F-92-73-F6-0E-6B-34-C5-E0-B9-97">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.TagHelpers.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Mvc.TagHelpers.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.0138122Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Mvc.TagHelpers</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="7D-2B-0A-19-03-79-B4-2A-86-6F-F4-47-29-2D-F4-2D-E1-F5-FA-95">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Caching.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Caching.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.8156865Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Caching.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="62-43-7B-4E-B1-83-04-37-E7-2B-D8-70-EE-85-DF-F3-44-D4-F5-AF">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.FileSystemGlobbing.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.FileSystemGlobbing.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.4307216Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.FileSystemGlobbing</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="3C-21-68-1E-E9-10-88-80-91-1F-24-82-FE-07-77-B1-0B-FF-F8-90">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.NodeServices.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.NodeServices.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.3208298Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.NodeServices</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="90-B6-DE-12-DC-A2-D0-A6-D9-E0-91-33-25-81-46-8D-2D-04-2A-5E">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Owin.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Owin.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.3378307Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Owin</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="EB-AE-EF-03-E8-69-F2-F8-A6-D9-99-C6-5E-3E-98-96-3A-59-67-89">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.ResponseCaching.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.ResponseCaching.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.6868507Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.ResponseCaching</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="14-31-49-35-B5-20-48-93-DE-F8-DA-EF-24-30-4E-0C-34-91-BA-44">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.6978513Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.ResponseCaching.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="77-FB-16-06-5D-DB-45-AE-EF-88-A2-88-F4-10-ED-49-1D-7D-CD-61">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.ResponseCompression.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.ResponseCompression.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.7208526Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.ResponseCompression</ModuleName>
       <Files />
@@ -4815,119 +4836,119 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="E2-2E-39-E2-A8-3A-6E-83-B2-D1-23-96-CD-B7-07-36-AD-F7-24-02">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Rewrite.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Rewrite.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.7458541Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Rewrite</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="84-31-3C-C0-70-7A-FF-44-F3-60-2E-08-35-B6-33-19-7E-9A-EA-EA">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Server.HttpSys.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Server.HttpSys.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.8048574Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Server.HttpSys</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="BD-1C-26-48-48-08-64-3F-A8-F3-45-E8-2A-73-02-74-6F-58-F7-3B">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Server.IISIntegration.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Server.IISIntegration.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.814858Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Server.IISIntegration</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="27-DB-BB-DC-C7-5F-27-EA-D9-82-87-DA-C4-CA-57-CB-62-CD-65-A0">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Server.Kestrel.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Server.Kestrel.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.8228585Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Server.Kestrel</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="CA-70-74-71-09-95-84-F4-C1-BB-CE-56-C6-6D-1D-13-5F-99-6C-AA">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.9058632Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Server.Kestrel.Core</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="18-53-25-FA-52-0F-04-BA-87-5D-7F-2F-1C-F5-A5-8C-A1-E1-AB-89">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.9808675Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="63-27-E2-6C-55-AE-CC-A7-06-32-CC-23-3E-F6-EF-0C-47-DC-22-69">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.9358649Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Server.Kestrel.Https</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="9B-78-DE-0B-0C-37-47-41-4F-9A-A4-B0-3E-4E-62-9D-DB-CF-CC-F8">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:36.1348763Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="2F-05-D5-77-C9-46-2B-E5-0B-5C-B6-6A-F6-E6-17-68-52-3D-78-BA">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Session.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Session.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:36.146877Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.Session</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="29-7A-E5-04-0F-68-2C-74-05-E2-50-23-90-A4-32-19-68-56-5F-E6">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.SpaServices.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.SpaServices.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:36.1628779Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.SpaServices</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="64-FF-BB-85-35-33-82-27-BC-E0-15-58-4B-F0-C2-C4-EA-87-EA-41">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.StaticFiles.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.StaticFiles.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:36.1798789Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.StaticFiles</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="3A-08-4A-47-45-96-D0-69-64-8C-84-A9-87-B8-0F-31-07-AE-8A-DD">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Net.Http.Headers.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Net.Http.Headers.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:37.9809819Z</ModuleTime>
       <ModuleName>Microsoft.Net.Http.Headers</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="D8-79-74-C9-47-51-7D-1F-21-7D-D2-7C-2B-FF-01-F4-0D-26-30-B2">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.WebSockets.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.WebSockets.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:36.1948797Z</ModuleTime>
       <ModuleName>Microsoft.AspNetCore.WebSockets</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="86-7D-7E-92-E5-CF-9F-98-9B-1F-BA-A5-D3-98-4E-95-8F-B8-D3-57">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Azure.KeyVault.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Azure.KeyVault.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:36.320887Z</ModuleTime>
       <ModuleName>Microsoft.Azure.KeyVault</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="F3-F5-2B-05-02-6C-36-67-9E-57-C9-ED-6D-B7-E0-55-1C-66-CD-BC">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Rest.ClientRuntime.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Rest.ClientRuntime.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:31.4326074Z</ModuleTime>
       <ModuleName>Microsoft.Rest.ClientRuntime</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="56-1F-CC-C8-C2-E4-8B-B6-9A-E6-B2-69-95-99-D3-B2-59-C2-B5-A0">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Rest.ClientRuntime.Azure.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Rest.ClientRuntime.Azure.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:31.4566087Z</ModuleTime>
       <ModuleName>Microsoft.Rest.ClientRuntime.Azure</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="FE-AE-36-F1-B5-16-97-8C-21-18-4E-DB-CD-EB-FC-7F-16-8E-80-D3">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Azure.KeyVault.WebKey.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Azure.KeyVault.WebKey.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:36.3478885Z</ModuleTime>
       <ModuleName>Microsoft.Azure.KeyVault.WebKey</ModuleName>
       <Files />
@@ -4948,21 +4969,21 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="C1-8B-1B-6C-B2-50-0F-61-D2-5E-FA-17-F8-8C-ED-4D-60-0F-84-5B">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Data.Edm.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Data.Edm.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.4738385Z</ModuleTime>
       <ModuleName>Microsoft.Data.Edm</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="D6-A3-C3-1D-A6-4D-DA-8B-06-D3-2B-05-19-2D-0D-DF-1E-9C-0B-F2">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Data.OData.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Data.OData.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:41.5961887Z</ModuleTime>
       <ModuleName>Microsoft.Data.OData</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="4F-1E-50-79-82-38-1C-59-71-A0-26-61-2E-B7-02-35-56-74-03-07">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Data.Sqlite.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Data.Sqlite.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:31.2125948Z</ModuleTime>
       <ModuleName>Microsoft.Data.Sqlite</ModuleName>
       <Files />
@@ -4976,119 +4997,119 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="59-84-0D-D0-CB-4C-01-FB-AB-53-E6-37-4B-82-29-4A-B7-4A-B9-62">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.DiaSymReader.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.DiaSymReader.dll</ModulePath>
       <ModuleTime>2016-06-12T17:38:46Z</ModuleTime>
       <ModuleName>Microsoft.DiaSymReader</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="8F-8D-4C-9A-0B-1F-70-0B-C2-AD-81-34-B3-20-0C-E0-68-3E-95-B9">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.DotNet.InternalAbstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.DotNet.InternalAbstractions.dll</ModulePath>
       <ModuleTime>2016-06-22T02:04:54Z</ModuleTime>
       <ModuleName>Microsoft.DotNet.InternalAbstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="6F-3A-01-38-38-2F-9A-2A-FE-A9-88-0A-64-D3-1F-9D-01-1B-17-42">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.DotNet.ProjectModel.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.DotNet.ProjectModel.dll</ModulePath>
       <ModuleTime>2016-06-22T02:04:54Z</ModuleTime>
       <ModuleName>Microsoft.DotNet.ProjectModel</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="30-52-9B-C3-8D-EA-A2-53-C9-DB-22-28-71-B4-A1-D7-39-5A-9F-70">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\NuGet.Versioning.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\NuGet.Versioning.dll</ModulePath>
       <ModuleTime>2016-06-14T02:35:02Z</ModuleTime>
       <ModuleName>NuGet.Versioning</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="77-5E-B9-0B-A1-F5-BA-41-32-D5-8B-49-66-9F-B9-C3-9D-97-B4-D2">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\NuGet.Frameworks.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\NuGet.Frameworks.dll</ModulePath>
       <ModuleTime>2016-06-14T02:35:02Z</ModuleTime>
       <ModuleName>NuGet.Frameworks</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="12-42-49-C4-DE-9B-36-52-00-54-ED-F1-50-CF-7D-41-53-EE-5F-A7">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\System.Interactive.Async.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\System.Interactive.Async.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.367718Z</ModuleTime>
       <ModuleName>System.Interactive.Async</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="74-09-C9-95-1A-27-07-D3-07-39-71-03-29-20-43-D6-BD-CD-9B-E7">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Remotion.Linq.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Remotion.Linq.dll</ModulePath>
       <ModuleTime>2016-06-15T04:16:46Z</ModuleTime>
       <ModuleName>Remotion.Linq</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="48-C3-68-8D-AE-97-87-0C-49-E1-01-B6-D4-EE-92-31-DB-F9-A4-34">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.Design.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.Design.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.0306416Z</ModuleTime>
       <ModuleName>Microsoft.EntityFrameworkCore.Design</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="FA-B5-57-33-77-62-C7-3C-C4-C9-FF-C0-6F-A3-C5-38-18-86-F9-28">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.Relational.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.Relational.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.5006685Z</ModuleTime>
       <ModuleName>Microsoft.EntityFrameworkCore.Relational</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="51-B0-74-82-7F-C0-5E-92-32-97-7A-23-66-B9-6D-7E-A2-59-5F-86">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.InMemory.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.InMemory.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.0926451Z</ModuleTime>
       <ModuleName>Microsoft.EntityFrameworkCore.InMemory</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="75-4D-7A-93-72-8D-37-63-68-9A-20-58-24-8C-20-59-85-40-7C-2D">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.Sqlite.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.Sqlite.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.5536715Z</ModuleTime>
       <ModuleName>Microsoft.EntityFrameworkCore.Sqlite</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="AA-B0-1C-1C-36-B8-B2-41-FB-F9-93-65-E7-F3-58-CD-09-19-C0-0F">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.SqlServer.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.EntityFrameworkCore.SqlServer.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.6166751Z</ModuleTime>
       <ModuleName>Microsoft.EntityFrameworkCore.SqlServer</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="3B-73-A1-5B-0A-DA-1A-82-E7-30-2F-D8-D9-20-39-CE-FD-9C-EE-97">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\dotnet-ef.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\dotnet-ef.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.7866848Z</ModuleTime>
       <ModuleName>dotnet-ef</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="17-1C-C1-2A-98-21-B8-4C-C2-D0-AE-DE-76-38-65-3B-71-95-84-A5">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Caching.Memory.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Caching.Memory.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.8306873Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Caching.Memory</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="3C-00-D5-E7-B4-8A-00-88-64-4A-D6-9E-15-D2-2C-40-93-DE-10-79">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Caching.Redis.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Caching.Redis.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.8516885Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Caching.Redis</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="7D-B5-65-02-C9-ED-D8-09-03-94-8C-5B-A5-45-4A-43-78-B4-64-7D">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\StackExchange.Redis.StrongName.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\StackExchange.Redis.StrongName.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:39.6100751Z</ModuleTime>
       <ModuleName>StackExchange.Redis.StrongName</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="90-3B-DB-3A-55-2E-F2-8D-DF-62-20-0E-D4-FA-C5-08-F1-0A-24-0E">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Caching.SqlServer.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Caching.SqlServer.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.8896907Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Caching.SqlServer</ModuleName>
       <Files />
@@ -5102,224 +5123,224 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="F3-3C-93-55-F7-3E-46-6F-00-78-44-8E-61-22-17-CE-F1-0B-CA-AA">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.9136921Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Configuration</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="46-98-6F-9E-FD-EB-39-FB-61-3F-C8-90-1F-11-FD-8B-65-22-EF-BC">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.AzureKeyVault.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.AzureKeyVault.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.0356991Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Configuration.AzureKeyVault</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="46-E1-65-C2-E3-16-82-36-FA-FF-9B-27-51-A2-98-C1-35-D0-94-D5">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.3368307Z</ModuleTime>
       <ModuleName>Microsoft.IdentityModel.Clients.ActiveDirectory</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="FA-C4-C2-74-A5-C2-11-1C-BB-22-C0-61-1B-BB-7F-20-13-B1-61-DC">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.Binder.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.Binder.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.0897021Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Configuration.Binder</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="82-E0-2B-E8-31-60-25-26-6C-99-1D-71-AF-11-DC-87-15-56-84-A8">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.CommandLine.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.CommandLine.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.139705Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Configuration.CommandLine</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="4E-FD-9E-FE-2A-F1-CE-4C-28-D2-A4-4E-68-4B-55-5E-80-8E-4F-0C">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.1597061Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Configuration.EnvironmentVariables</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="B9-A4-C3-05-28-C3-3D-5F-BD-13-1D-4E-7B-C8-73-1F-1A-00-F9-C2">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.FileExtensions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.FileExtensions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.1737069Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Configuration.FileExtensions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="9C-EA-EE-88-96-67-5B-F7-30-14-6D-3C-A9-27-C4-12-8B-58-EB-2F">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.Ini.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.Ini.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.1817074Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Configuration.Ini</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="67-20-D2-F8-05-72-89-CC-E4-AF-44-4E-8E-63-42-9E-3C-47-7F-99">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.Json.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.Json.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.1937081Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Configuration.Json</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="82-5C-B0-DA-89-14-3C-B8-43-69-0C-3B-E8-D3-24-19-02-BE-AB-5F">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.UserSecrets.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.UserSecrets.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.2047087Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Configuration.UserSecrets</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="88-F6-28-DA-26-97-4F-BA-A2-7F-5D-8F-F3-4D-9E-30-FE-38-03-15">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.Xml.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Configuration.Xml.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.2137092Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Configuration.Xml</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="C0-16-5E-64-1B-96-8D-C5-EB-6B-CE-4D-EE-37-3F-2E-FB-41-93-FD">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.2237098Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.DependencyInjection</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="DC-90-39-43-88-9B-15-18-09-0C-AE-1B-AF-AC-F0-0A-DA-E8-B6-1E">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.DiagnosticAdapter.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.DiagnosticAdapter.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.2817131Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.DiagnosticAdapter</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="A2-E5-95-24-9F-4C-A1-75-6D-6D-34-56-5D-F6-9D-7A-F8-E2-92-B4">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.FileProviders.Composite.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.FileProviders.Composite.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.3777186Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.FileProviders.Composite</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="D5-85-78-AE-BE-68-6C-1E-D7-38-9E-58-D6-8F-AD-D0-C1-15-6F-B0">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.FileProviders.Embedded.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.FileProviders.Embedded.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.3977198Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.FileProviders.Embedded</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="AE-F5-49-79-5C-02-22-58-A0-10-8B-26-66-86-30-43-BE-72-A0-1E">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.FileProviders.Physical.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.FileProviders.Physical.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.4127206Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.FileProviders.Physical</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="3A-0B-8C-60-CB-EA-A5-40-55-88-F6-C4-E2-25-3F-FC-F4-0F-B8-0C">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Hosting.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Hosting.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.4457225Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Hosting.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="1A-49-35-47-E8-2E-4D-4E-52-27-7C-FE-41-F4-8E-27-11-24-55-FB">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Localization.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Localization.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.5047259Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Localization</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="C5-3A-1E-A3-5B-9C-B1-32-6D-4D-FD-64-B2-44-0E-00-66-5B-BC-D1">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Localization.Abstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Localization.Abstractions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.5147265Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Localization.Abstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="3E-3D-DF-9A-E1-8D-41-CF-2B-C4-4C-D4-B1-95-39-81-6B-20-5F-F6">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.5267271Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Logging</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="1C-C5-2F-B0-E3-63-1F-EC-F4-50-AE-76-B7-54-56-E0-8C-E6-E5-F0">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.AzureAppServices.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.AzureAppServices.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.5577289Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Logging.AzureAppServices</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="21-7E-E8-8A-BE-E0-84-24-E1-1F-9E-A9-0C-72-B7-8B-02-6E-2E-B1">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.Configuration.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.Configuration.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.5727298Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Logging.Configuration</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="1B-C6-E3-51-FB-37-D9-21-78-07-39-B0-90-D6-A8-43-E3-30-D5-69">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.Console.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.Console.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.6837361Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Logging.Console</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="FA-1C-43-98-F2-AA-C2-8F-7A-68-79-67-41-BF-8C-13-9E-FA-15-C9">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.Debug.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.Debug.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.6977369Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Logging.Debug</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="85-6E-96-9D-01-AE-3C-EF-27-A5-D9-B8-37-08-C0-0C-BC-8E-06-B5">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.EventSource.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.EventSource.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.7077375Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Logging.EventSource</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="34-88-1C-E5-51-B2-98-C0-51-FA-4C-41-73-C8-49-B2-27-CB-8F-85">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.TraceSource.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Logging.TraceSource.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.7227384Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Logging.TraceSource</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="13-36-6F-62-81-12-9D-7F-50-13-70-52-8C-90-F8-37-FD-AD-33-AF">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.7537401Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.Options.ConfigurationExtensions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="1F-92-51-A7-AD-5A-CC-F0-53-05-52-A7-97-09-62-ED-91-F5-83-D6">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.PlatformAbstractions.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.PlatformAbstractions.dll</ModulePath>
       <ModuleTime>2017-05-16T04:29:44Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.PlatformAbstractions</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="89-1E-45-4B-32-E1-F0-C4-92-1D-30-08-42-D4-75-28-85-BF-C5-37">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.WebEncoders.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.Extensions.WebEncoders.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:33.8057431Z</ModuleTime>
       <ModuleName>Microsoft.Extensions.WebEncoders</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="01-89-8B-12-C7-C3-5F-3E-A3-F9-A6-22-C5-77-E7-2B-BC-C3-D5-73">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.3538316Z</ModuleTime>
       <ModuleName>Microsoft.IdentityModel.Clients.ActiveDirectory.Platform</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="55-C9-40-AD-79-42-D4-E8-34-93-23-8A-36-76-8F-FC-29-6A-36-2A">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.IdentityModel.Logging.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.IdentityModel.Logging.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:35.7898566Z</ModuleTime>
       <ModuleName>Microsoft.IdentityModel.Logging</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="CC-F4-D6-66-A9-B6-16-CB-15-DF-7E-1D-A8-A2-9B-90-05-7F-6B-BC">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.IdentityModel.Tokens.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.IdentityModel.Tokens.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:36.0568719Z</ModuleTime>
       <ModuleName>Microsoft.IdentityModel.Tokens</ModuleName>
       <Files />
@@ -5354,14 +5375,14 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="1E-A3-53-C2-E9-2B-D4-1E-8F-8B-10-5A-05-BA-55-43-7E-78-08-4C">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.VisualStudio.Web.BrowserLink.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.VisualStudio.Web.BrowserLink.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:31.4716096Z</ModuleTime>
       <ModuleName>Microsoft.VisualStudio.Web.BrowserLink</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="D0-2F-EC-75-06-0B-95-1E-B8-39-18-50-93-18-AF-26-04-AD-EA-92">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Moq.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Moq.dll</ModulePath>
       <ModuleTime>2017-09-25T20:28:24Z</ModuleTime>
       <ModuleName>Moq</ModuleName>
       <Files />
@@ -5375,70 +5396,70 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="4C-E7-60-07-07-26-2F-76-1F-44-1A-A5-C9-71-1B-64-7A-FC-35-B5">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Newtonsoft.Json.Bson.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Newtonsoft.Json.Bson.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:38.2899996Z</ModuleTime>
       <ModuleName>Newtonsoft.Json.Bson</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="AE-7E-E3-67-25-CB-0A-42-91-A9-1B-55-9C-B9-ED-39-06-08-51-1D">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\NuGet.Common.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\NuGet.Common.dll</ModulePath>
       <ModuleTime>2016-06-14T02:35:02Z</ModuleTime>
       <ModuleName>NuGet.Common</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="A7-CB-8D-5E-CB-6E-8C-6A-AA-EB-47-CA-C8-20-7B-A3-E4-1D-1F-A9">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\NuGet.Packaging.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\NuGet.Packaging.dll</ModulePath>
       <ModuleTime>2016-06-14T02:35:02Z</ModuleTime>
       <ModuleName>NuGet.Packaging</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="40-94-03-F1-15-E6-81-56-E0-50-34-CF-F0-75-03-AD-27-2F-46-F6">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\NuGet.Packaging.Core.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\NuGet.Packaging.Core.dll</ModulePath>
       <ModuleTime>2016-06-14T02:35:02Z</ModuleTime>
       <ModuleName>NuGet.Packaging.Core</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="4A-5D-DE-96-61-1C-5E-1B-C8-15-DE-7C-60-DF-1C-10-AE-1F-6B-B2">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\NuGet.Packaging.Core.Types.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\NuGet.Packaging.Core.Types.dll</ModulePath>
       <ModuleTime>2016-06-14T02:35:02Z</ModuleTime>
       <ModuleName>NuGet.Packaging.Core.Types</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="38-30-47-0A-FC-16-BC-94-18-B5-2C-59-16-91-53-FB-33-EC-69-D1">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\NuGet.RuntimeModel.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\NuGet.RuntimeModel.dll</ModulePath>
       <ModuleTime>2016-06-14T02:35:02Z</ModuleTime>
       <ModuleName>NuGet.RuntimeModel</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="D9-B9-EE-17-71-13-06-13-C8-DC-84-E5-40-71-1B-44-EA-F0-53-6E">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\SQLitePCLRaw.batteries_green.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\SQLitePCLRaw.batteries_green.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:38.8770332Z</ModuleTime>
       <ModuleName>SQLitePCLRaw.batteries_green</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="70-A5-43-E2-5A-CA-63-33-CC-FF-B8-1D-58-A4-DC-7B-F9-70-41-39">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\SQLitePCLRaw.batteries_v2.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\SQLitePCLRaw.batteries_v2.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:38.8780332Z</ModuleTime>
       <ModuleName>SQLitePCLRaw.batteries_v2</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="F8-2B-21-59-12-15-85-3A-23-B3-F2-15-61-08-56-3B-3B-AB-38-24">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\SQLitePCLRaw.core.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\SQLitePCLRaw.core.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:38.9460371Z</ModuleTime>
       <ModuleName>SQLitePCLRaw.core</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="9C-E3-D3-5F-95-02-4C-EB-2C-C2-51-45-6A-21-89-A2-3F-38-98-8D">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\SQLitePCLRaw.provider.e_sqlite3.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\SQLitePCLRaw.provider.e_sqlite3.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:39.4720672Z</ModuleTime>
       <ModuleName>SQLitePCLRaw.provider.e_sqlite3</ModuleName>
       <Files />
@@ -5466,28 +5487,28 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="A3-47-D8-B4-5B-9B-3C-0A-02-C3-80-60-E1-09-D3-AB-82-0E-13-21">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\System.IdentityModel.Tokens.Jwt.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\System.IdentityModel.Tokens.Jwt.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.7736841Z</ModuleTime>
       <ModuleName>System.IdentityModel.Tokens.Jwt</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="CA-F6-61-A9-86-1E-7F-07-4F-F9-83-60-E0-55-7A-DA-0E-06-96-F1">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\System.Runtime.CompilerServices.Unsafe.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\System.Runtime.CompilerServices.Unsafe.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:39.8750902Z</ModuleTime>
       <ModuleName>System.Runtime.CompilerServices.Unsafe</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="61-DD-06-B5-E2-18-37-F0-31-6A-6E-CB-56-AD-B7-BE-D0-93-A8-65">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\System.Security.Cryptography.Xml.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\System.Security.Cryptography.Xml.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:37.9359793Z</ModuleTime>
       <ModuleName>System.Security.Cryptography.Xml</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="38-52-F3-11-AE-C6-66-D0-00-81-7A-35-84-7F-8F-A6-22-28-03-9E">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\System.Spatial.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\System.Spatial.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:39.1900511Z</ModuleTime>
       <ModuleName>System.Spatial</ModuleName>
       <Files />
@@ -5501,7 +5522,7 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="53-54-24-5E-85-2F-DC-31-01-9F-64-96-C1-B7-CA-E0-56-B4-71-FF">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\System.Xml.XPath.XmlDocument.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\System.Xml.XPath.XmlDocument.dll</ModulePath>
       <ModuleTime>2016-06-12T04:15:02Z</ModuleTime>
       <ModuleName>System.Xml.XPath.XmlDocument</ModuleName>
       <Files />
@@ -5515,35 +5536,35 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="8F-85-F5-76-4B-A2-77-BD-04-B7-5B-8B-75-35-FB-20-B9-5D-38-FE">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.WindowsAzure.Storage.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Microsoft.WindowsAzure.Storage.dll</ModulePath>
       <ModuleTime>2017-09-02T00:29:32.1846504Z</ModuleTime>
       <ModuleName>Microsoft.WindowsAzure.Storage</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="F6-F1-B9-CB-5D-1C-52-0F-EF-A8-C9-9A-E7-A3-FF-85-2D-44-23-77">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.assert.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.assert.dll</ModulePath>
       <ModuleTime>2017-09-01T03:06:42Z</ModuleTime>
       <ModuleName>xunit.assert</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="64-6D-C2-A8-AD-09-9F-E3-EE-C9-C3-04-F2-49-2E-42-AC-1E-4E-88">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.core.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.core.dll</ModulePath>
       <ModuleTime>2017-09-01T03:06:44Z</ModuleTime>
       <ModuleName>xunit.core</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="A2-32-0B-A0-3B-6D-B3-19-96-F4-FB-11-21-EB-17-51-6F-09-1C-AD">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.execution.dotnet.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.execution.dotnet.dll</ModulePath>
       <ModuleTime>2017-09-01T03:06:44Z</ModuleTime>
       <ModuleName>xunit.execution.dotnet</ModuleName>
       <Files />
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="DA-6D-84-D3-DA-48-F0-67-5B-52-BB-99-87-D0-4B-CF-13-4C-B9-78">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.runner.reporters.dotnet.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.runner.reporters.dotnet.dll</ModulePath>
       <ModuleTime>2016-06-27T14:43:50Z</ModuleTime>
       <ModuleName>xunit.runner.reporters.dotnet</ModuleName>
       <Files />
@@ -5551,8 +5572,8 @@
     </Module>
     <Module hash="50-A3-84-A3-A8-AE-EC-54-69-33-25-BB-B8-53-16-11-D5-B4-E6-BE">
       <Summary numSequencePoints="54" visitedSequencePoints="18" numBranchPoints="37" visitedBranchPoints="10" sequenceCoverage="33.33" branchCoverage="27.03" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" visitedClasses="3" numClasses="8" visitedMethods="8" numMethods="25" />
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Bookadoc.Api.dll</ModulePath>
-      <ModuleTime>2017-10-11T03:35:49.3133237Z</ModuleTime>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Bookadoc.Api.dll</ModulePath>
+      <ModuleTime>2017-10-11T03:55:49.2831264Z</ModuleTime>
       <ModuleName>Bookadoc.Api</ModuleName>
       <Files>
         <File uid="3" fullPath="C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Api\Startup.cs" />
@@ -5986,10 +6007,10 @@
         </Class>
       </Classes>
     </Module>
-    <Module hash="6C-82-74-5B-4B-A5-C9-2F-8D-41-4D-41-73-F0-29-E6-43-27-C1-A4">
+    <Module hash="6A-85-49-B1-97-CF-DB-03-6D-87-60-E8-47-17-71-3C-09-96-FE-A5">
       <Summary numSequencePoints="48" visitedSequencePoints="17" numBranchPoints="18" visitedBranchPoints="10" sequenceCoverage="35.42" branchCoverage="55.56" maxCyclomaticComplexity="19" minCyclomaticComplexity="1" visitedClasses="4" numClasses="8" visitedMethods="10" numMethods="18" />
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Bookadoc.Data.dll</ModulePath>
-      <ModuleTime>2017-10-11T03:35:43.4749898Z</ModuleTime>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\Bookadoc.Data.dll</ModulePath>
+      <ModuleTime>2017-10-11T03:55:42.9963153Z</ModuleTime>
       <ModuleName>Bookadoc.Data</ModuleName>
       <Files>
         <File uid="19" fullPath="C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Data\Migrations\20170928014255_InitialMigration.cs" />
@@ -6981,7 +7002,7 @@
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="4C-41-23-CC-68-44-BC-96-7A-9A-5F-43-91-98-C4-D2-3C-39-96-7D">
-      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll</ModulePath>
+      <ModulePath>C:\Users\Guillermo\Documents\Visual Studio 2017\Projects\Bookadoc\Tests\Bookadoc.Tests.Unit\bin\Release\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll</ModulePath>
       <ModuleTime>2017-02-19T20:24:26Z</ModuleTime>
       <ModuleName>xunit.runner.reporters.netstandard15</ModuleName>
       <Files />

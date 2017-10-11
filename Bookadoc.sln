@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookadoc.Core", "Bookadoc.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookadoc.Data", "Bookadoc.Data\Bookadoc.Data.csproj", "{1A7BBEE9-DBE0-473F-A61F-A986E3ED69A3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookadoc.Tests.Unit", "Bookadoc.Tests.Unit\Bookadoc.Tests.Unit.csproj", "{F074D694-258B-4646-BCDD-6A34AB1B3D38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookadoc.Tests.Unit", "Tests\Bookadoc.Tests.Unit\Bookadoc.Tests.Unit.csproj", "{F074D694-258B-4646-BCDD-6A34AB1B3D38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookadoc.Tests.Integration", "Bookadoc.Tests.Integration\Bookadoc.Tests.Integration.csproj", "{6EA524D7-822F-4125-A45A-80965A873CE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookadoc.Tests.Integration", "Tests\Bookadoc.Tests.Integration\Bookadoc.Tests.Integration.csproj", "{6EA524D7-822F-4125-A45A-80965A873CE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BE94E17C-9837-472E-9433-B17FC1EE8D4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F074D694-258B-4646-BCDD-6A34AB1B3D38} = {BE94E17C-9837-472E-9433-B17FC1EE8D4C}
+		{6EA524D7-822F-4125-A45A-80965A873CE5} = {BE94E17C-9837-472E-9433-B17FC1EE8D4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC679E86-B80B-48FF-9B46-A9701A4E3C5A}

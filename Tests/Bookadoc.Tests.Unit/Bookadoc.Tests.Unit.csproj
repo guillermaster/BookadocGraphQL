@@ -10,15 +10,14 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
     <PackageReference Include="Moq" Version="4.7.127" />
     <PackageReference Include="OpenCover" Version="4.6.519" />
-    <PackageReference Include="ReportGenerator" Version="3.0.1" />
     <PackageReference Include="xunit" Version="2.3.0-beta5-build3769" />
     <PackageReference Include="dotnet-test-xunit" Version="2.2.0-preview2-build1029" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
 	<DotNetCliToolReference Include="dotnet-xunit" Version="2.3.0-beta4-build3742" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bookadoc.Api\Bookadoc.Api.csproj" />
-    <ProjectReference Include="..\Bookadoc.Core\Bookadoc.Core.csproj" />
-    <ProjectReference Include="..\Bookadoc.Data\Bookadoc.Data.csproj" />
+    <ProjectReference Include="..\..\Bookadoc.Api\Bookadoc.Api.csproj" />
+    <ProjectReference Include="..\..\Bookadoc.Core\Bookadoc.Core.csproj" />
+    <ProjectReference Include="..\..\Bookadoc.Data\Bookadoc.Data.csproj" />
   </ItemGroup>
 </Project>
