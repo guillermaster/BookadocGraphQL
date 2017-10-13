@@ -11,5 +11,6 @@ namespace Bookadoc.Core.Models
         public string Password { get; set; }
         public bool Active { get; set; }
         public IEnumerable<Address> Addresses { get; set; }
+        public IEnumerable<Phone> PhoneNumbers { get; set; }
     }
 }
