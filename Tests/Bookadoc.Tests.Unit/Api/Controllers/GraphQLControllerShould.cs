@@ -1,17 +1,14 @@
-﻿using Bookadoc.Api.Controllers;
-using Bookadoc.Api.Models;
-using GraphQL;
+﻿using GraphQL;
 using GraphQL.Types;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using StarWars.Api.Controllers;
+using StarWars.Api.Models;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Bookadoc.Tests.Unit.Api.Controllers
+namespace StarWars.Tests.Unit.Api.Controllers
 {
     public class GraphQLControllerShould
     {
@@ -19,16 +16,16 @@ namespace Bookadoc.Tests.Unit.Api.Controllers
 
         public GraphQLControllerShould()
         {
-            //Given
+            // Given
             var documentExecutor = new Mock<IDocumentExecuter>();
-            documentExecutor.Setup(x => x.ExecuteAsync(It.IsAny<ExecutionOptions>()))
-                .Returns(Task.FromResult(new ExecutionResult()));
+            documentExecutor.Setup(x => x.ExecuteAsync(It.IsAny<ExecutionOptions>())).Returns(Task.FromResult(new ExecutionResult()));
             var schema = new Mock<ISchema>();
             var logger = new Mock<ILogger<GraphQLController>>();
             _graphqlController = new GraphQLController(documentExecutor.Object, schema.Object, logger.Object);
         }
 
         [Fact]
+        [Trait("test", "unit")]
         public void ReturnNotNullViewResult()
         {
             // When
@@ -40,17 +37,18 @@ namespace Bookadoc.Tests.Unit.Api.Controllers
         }
 
         [Fact]
+        [Trait("test", "unit")]
         public async void ReturnNotNullExecutionResult()
         {
             // Given
-            var query = new GraphQLQuery { Query = @"{ ""query"": ""query { first { id name } }"" }" };
+            var query = new GraphQLQuery { Query = @"{ ""query"": ""query { hero { id name } }""" };
 
             // When
             var result = await _graphqlController.Post(query);
-            
+
             // Then
             Assert.NotNull(result);
-            var okObjectResult = Assert.IsType<OkObjectResult>(result);
+            var okObjectResult =  Assert.IsType<OkObjectResult>(result);
             var executionResult = okObjectResult.Value;
             Assert.NotNull(executionResult);
         }

@@ -1,20 +1,21 @@
-﻿using GraphQL;
+﻿using System;
+using GraphQL;
 using GraphQL.Types;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Bookadoc.Api.Models;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using StarWars.Api.Models;
+using System.Threading.Tasks;
 
-namespace Bookadoc.Api.Controllers
+namespace StarWars.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("graphql")]
     public class GraphQLController : Controller
     {
-        private readonly ILogger _logger;
         private IDocumentExecuter _documentExecuter { get; set; }
         private ISchema _schema { get; set; }
-        
+        private readonly ILogger _logger;
+
         public GraphQLController(IDocumentExecuter documentExecuter, ISchema schema, ILogger<GraphQLController> logger)
         {
             _documentExecuter = documentExecuter;
@@ -28,34 +29,32 @@ namespace Bookadoc.Api.Controllers
             _logger.LogInformation("Got request for GraphiQL. Sending GUI back");
             return View();
         }
-        
-        // POST api/values
+
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody]GraphQLQuery query)
+        public async Task<IActionResult> Post([FromBody] GraphQLQuery query)
         {
+            if (query == null) { throw new ArgumentNullException(nameof(query)); }
+
             var executionOptions = new ExecutionOptions { Schema = _schema, Query = query.Query };
-            var result = await new DocumentExecuter().ExecuteAsync(executionOptions).ConfigureAwait(false);
 
-            if(result.Errors?.Count > 0)
+            try
             {
-                _logger.LogError("GraphQL errors: {0}", result.Errors);
-                return BadRequest();
+                var result = await _documentExecuter.ExecuteAsync(executionOptions).ConfigureAwait(false);
+
+                if (result.Errors?.Count > 0)
+                {
+                    _logger.LogError("GraphQL errors: {0}", result.Errors);
+                    return BadRequest(result);
+                }
+
+                _logger.LogDebug("GraphQL execution result: {result}", JsonConvert.SerializeObject(result.Data));
+                return Ok(result);
             }
-
-            _logger.LogDebug("GraphQL execution result: {result}", JsonConvert.SerializeObject(result.Data));
-            return Ok(result);
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            catch (Exception ex)
+            {
+                _logger.LogError("Document exexuter exception", ex);
+                return BadRequest(ex);
+            }
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-var output = __dirname  + '/wwwroot';
+var output = './wwwroot';
 
 module.exports = {
     entry: {
@@ -19,12 +19,12 @@ module.exports = {
 
     module: {
         loaders: [
-            { test: /\.js/, loader: 'babel', exclude: /node_modules/ },
-            { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader') }
+          { test: /\.js/, loader: 'babel', exclude: /node_modules/ },
+          { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader!postcss-loader') }
         ]
     },
 
     plugins: [
-        new ExtractTextPlugin('style.css', { allChunks: true })
+      new ExtractTextPlugin('style.css', { allChunks: true })
     ]
 };
