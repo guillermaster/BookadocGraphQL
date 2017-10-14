@@ -1,4 +1,0 @@
-mkdir coverage\unit
-OpenCover.Console.exe -target:"dotnet.exe" -targetargs:"test -f netcoreapp2.0 -c Release Tests/Bookadoc.Tests.Unit/Bookadoc.Tests.Unit.csproj" -hideskipped:File -output:coverage/unit/coverage.xml -oldStyle -filter:"+[Bookadoc*]* -[Bookadoc.Tests*]* -[Bookadoc.Api]*Program -[Bookadoc.Api]*Startup -[Bookadoc.Data]*EntityFramework.Workaround.Program -[Bookadoc.Data]*EntityFramework.Migrations* -[Bookadoc.Data]*EntityFramework.Seed*" -searchdirs:"Tests/Bookadoc.Tests.Unit/bin/Release/netcoreapp2.0" -register:user
-ReportGenerator.exe -reports:coverage/unit/coverage.xml -targetdir:coverage/unit -verbosity:Error
-start .\coverage\unit\index.htm

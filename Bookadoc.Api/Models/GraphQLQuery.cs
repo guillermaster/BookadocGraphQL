@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
-namespace Bookadoc.Api.Models
+namespace StarWars.Api.Models
 {
     public class GraphQLQuery
     {

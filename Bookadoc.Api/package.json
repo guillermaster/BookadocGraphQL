@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "bookadoc",
+  "name": "starwars-graphiql",
   "private": true,
   "scripts": {
     "start": "webpack --progress"
