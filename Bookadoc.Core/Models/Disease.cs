@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Bookadoc.Core.Models
 {
@@ -8,5 +6,6 @@ namespace Bookadoc.Core.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public virtual ICollection<PatientDiseaseHistory> PatientsDiseases { get; set; }
     }
 }

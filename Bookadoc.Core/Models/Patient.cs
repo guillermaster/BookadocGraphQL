@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Bookadoc.Core.Models
 {
@@ -8,6 +6,6 @@ namespace Bookadoc.Core.Models
     {
         public decimal Height { get; set; }
         public decimal Weight { get; set; }
-        public virtual ICollection<Disease> KnownDiseases { get; set; }
+        public virtual ICollection<PatientDiseaseHistory> PatientsDiseases { get; set; }
     }
 }

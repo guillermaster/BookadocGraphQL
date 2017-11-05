@@ -10,6 +10,7 @@ namespace Bookadoc.Core.Models
         public string Email { get; set; }
         public string Password { get; set; }
         public bool Active { get; set; }
+        public int UserTypeId { get; set; }
         public IEnumerable<Address> Addresses { get; set; }
         public IEnumerable<Phone> PhoneNumbers { get; set; }
     }

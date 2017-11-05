@@ -4,7 +4,7 @@ namespace Bookadoc.Core.Models
 {
     public class Doctor : User
     {
-        public virtual ICollection<Speciality> Specialities { get; set; }
-        public virtual ICollection<Degree> Degrees { get; set; }
+        public virtual ICollection<DoctorSpeciality> DoctorSpecialities { get; set; }
+        public virtual ICollection<DoctorDegree> DoctorDegrees { get; set; }
     }
 }
