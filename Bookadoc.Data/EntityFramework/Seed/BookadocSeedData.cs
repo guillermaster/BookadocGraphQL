@@ -25,16 +25,18 @@ namespace Bookadoc.Data.EntityFramework.Seed
                 };
                 db.Users.Add(defaultUser);
 
-                //var defaultUser2 = new User
-                //{
-                //    Name = "Sebastian",
-                //    LastName = "Pincay",
-                //    Email = "guillesebaspincay@gmail.com",
-                //    Password = "123456",
-                //    Active = true,
-                //    UserTypeId = Enums.UserType.Supplier
-                //};
-                //db.Users.Add(defaultUser2);
+                db.SaveChanges();
+
+                var defaultUser2 = new User
+                {
+                    Name = "Sebastian",
+                    LastName = "Pincay",
+                    Email = "guillesebaspincay@gmail.com",
+                    Password = "123456",
+                    Active = true,
+                    UserTypeId = Enums.UserType.Supplier
+                };
+                db.Users.Add(defaultUser2);
 
                 db.SaveChanges();
             }

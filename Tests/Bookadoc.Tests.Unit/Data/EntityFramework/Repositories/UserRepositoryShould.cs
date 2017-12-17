@@ -45,5 +45,19 @@ namespace Bookadoc.Tests.Unit.Data.EntityFramework.Repositories
             Assert.NotNull(user);
             Assert.Equal("Guillermo", user.Name);
         }
+
+        [Fact]
+        public async void ReturnGuillermoByEmail()
+        {
+            var email = "guillermaster@gmail.com";
+            // When
+            var user = await _userRepository.Get(email);
+
+            // Then
+            Assert.NotNull(user);
+            Assert.Equal("Guillermo", user.Name);
+            Assert.Equal(email, user.Email);
+            Assert.Equal(1, user.Id);
+        }
     }
 }

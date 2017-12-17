@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  bookadoc.api:
+    image: bookadoc.api
+    build:
+      context: ./Bookadoc.Api
+      dockerfile: Dockerfile

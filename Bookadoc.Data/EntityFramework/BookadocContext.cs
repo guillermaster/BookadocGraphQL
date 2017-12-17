@@ -42,19 +42,21 @@ namespace Bookadoc.Data.EntityFramework
                 .HasValue<Patient>(Enums.UserType.Client)
                 .HasValue<User>(Enums.UserType.Administrator);
             modelBuilder.Entity<User>().HasKey(c => c.Id);
+            //modelBuilder.Entity<User>().Property(e => e.Id).ValueGeneratedNever();
+            modelBuilder.Entity<User>().Property(p => p.Id).UseSqlServerIdentityColumn();
 
             // doctors
             modelBuilder.Entity<Doctor>().HasBaseType<User>();
-            //modelBuilder.Entity<Doctor>().HasKey(c => c.Id);
-            modelBuilder.Entity<Doctor>().Property(e => e.Id).ValueGeneratedNever();
+            //modelBuilder.Entity<Doctor>().Property(e => e.Id).ValueGeneratedNever();
+            modelBuilder.Entity<Doctor>().Property(p => p.Id).UseSqlServerIdentityColumn();
             modelBuilder.Entity<Doctor>().HasMany(p => p.PhoneNumbers);
                             
 
             // patients
             modelBuilder.Entity<Patient>().HasBaseType<User>();
-            //modelBuilder.Entity<Patient>().HasKey(c => c.Id);
-            modelBuilder.Entity<Patient>().Property(e => e.Id).ValueGeneratedNever();
-            
+            //modelBuilder.Entity<Patient>().Property(e => e.Id).ValueGeneratedNever();
+            modelBuilder.Entity<Patient>().Property(p => p.Id).UseSqlServerIdentityColumn();
+
             // cities
             modelBuilder.Entity<City>().HasKey(c => c.Id);
             modelBuilder.Entity<City>().Property(e => e.Id).ValueGeneratedNever();

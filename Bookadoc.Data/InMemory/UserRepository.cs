@@ -31,5 +31,10 @@ namespace Bookadoc.Data.InMemory
         {
             return Task.FromResult(_users.FirstOrDefault(user => user.Id == id));
         }
+
+        public Task<User> Get(string email)
+        {
+            return Task.FromResult(_users.FirstOrDefault(user => user.Email == email));
+        }
     }
 }

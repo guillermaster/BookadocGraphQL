@@ -10,8 +10,14 @@ namespace Bookadoc.Api.Models
         public UserQuery(IUserRepository _userRepository)
         {
             Field<UserType>(
-                "first",
-                resolve: context => _userRepository.Get(1)
+                "user",
+                arguments: new QueryArguments(
+                    new QueryArgument<NonNullGraphType<StringGraphType>> { Name = QueryArgs.User.Email, Description = "User email address" }
+              ),
+                resolve: context => {
+                    var email = context.GetArgument<string>(QueryArgs.User.Email);
+                    return _userRepository.Get(email);
+                } 
             );
         }
     }

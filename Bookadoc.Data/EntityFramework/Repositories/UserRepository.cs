@@ -22,5 +22,11 @@ namespace Bookadoc.Data.EntityFramework.Repositories
             _logger.LogInformation("Get user with id = {id}", id);
             return _db.Users.FirstOrDefaultAsync(user => user.Id == id);
         }
+
+        public Task<User> Get(string email)
+        {
+            _logger.LogInformation("Get user with email = {email}", email);
+            return _db.Users.FirstOrDefaultAsync(user => user.Email == email);
+        }
     }
 }
